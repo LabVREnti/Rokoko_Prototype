@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9bbf3850d36255447872fa09883079f7
+timeCreated: 1495451914
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.1.3
+  assetPath: Assets/Rokoko/Scenes/RokokoPluginExampleScene_CustomActors.unity
+  uploadId: 774862

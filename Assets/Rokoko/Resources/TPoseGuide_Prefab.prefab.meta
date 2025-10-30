@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c52368bf14a9f854388695c0d3145f8a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.1.3
+  assetPath: Assets/Rokoko/Resources/TPoseGuide_Prefab.prefab
+  uploadId: 774862
