@@ -1,8 +1,9 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Networking;
+using System.IO;
 
 namespace Rokoko.CommandAPI
 {
@@ -19,6 +20,42 @@ namespace Rokoko.CommandAPI
 
         [Header("Log extra info")]
         public bool debug;
+
+        //AÑADIDO LAB//
+
+        [Header("Local JSON Logging")]
+        [Tooltip("Guarda los JSON enviados/recibidos en Assets/<saveFolderRelative>")]
+        public bool saveRequestsToDisk = true;
+
+        [Tooltip("Carpeta relativa a Assets/ donde guardar los JSON")]
+        public string saveFolderRelative = "RokokoRequests";
+
+        private string GetSaveFolder()
+        {
+            var root = Application.dataPath; // .../YourProject/Assets
+            var folder = Path.Combine(root, saveFolderRelative);
+            if (!Directory.Exists(folder)) Directory.CreateDirectory(folder);
+            return folder;
+        }
+
+        private void SaveJsonToDisk(string endpoint, string payload, string suffix)
+        {
+            if (!saveRequestsToDisk) return;
+            try
+            {
+                var safeEndpoint = endpoint.Replace("/", "_");
+                var ts = System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss-fff");
+                var file = Path.Combine(GetSaveFolder(), $"{ts}_{safeEndpoint}_{suffix}.json");
+                File.WriteAllText(file, payload ?? "");
+                if (debug) Debug.Log($"Saved {suffix} JSON → {file}", this.transform);
+            }
+            catch (System.Exception ex)
+            {
+                if (debug) Debug.LogWarning($"Failed to save {suffix} JSON: {ex.Message}", this.transform);
+            }
+        }
+
+        //AÑADIDO LAB//
 
         protected abstract string IP { get; }
 
@@ -101,6 +138,8 @@ namespace Rokoko.CommandAPI
                 Debug.Log("Sending data: " + json, this.transform);
             }
 
+            SaveJsonToDisk(endpoint, json, "request");
+
             // convert json string to byte
             byte[] formData = System.Text.Encoding.UTF8.GetBytes(json);
             UnityWebRequest request = new UnityWebRequest(url, UnityWebRequest.kHttpVerbPOST);
@@ -115,12 +154,14 @@ namespace Rokoko.CommandAPI
             {
                 if (debug)
                     Debug.Log($"Response: {request.responseCode}: {body}", this.transform);
+                SaveJsonToDisk(endpoint, body, "response");
                 OnCommmandResponse(JsonUtility.FromJson<ResponseMessage>(body));
             }
             else
             {
                 if (debug)
                     Debug.LogWarning($"There was an error sending request: {request.error}\n{body}", this.transform);
+                SaveJsonToDisk(endpoint, body, "response_error");
                 OnCommmandError(request.error);
             }
             task.SetResult(body);
