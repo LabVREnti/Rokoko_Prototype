@@ -1,0 +1,39 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class canvas_controller : MonoBehaviour
+{
+    [SerializeField] private GameObject model1;
+    [SerializeField] private GameObject model2;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        model1.SetActive(false);
+        model2.SetActive(false);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void ActiveModel1()
+    {
+        model1.SetActive(true);
+        model2.SetActive(false);
+    }
+
+    public void ActiveModel2()
+    {
+        model1.SetActive(false);
+        model2.SetActive(true);
+    }
+
+    public void ActiveBothModels()
+    {
+        model1.SetActive(true);
+        model2.SetActive(true);
+    }
+}
