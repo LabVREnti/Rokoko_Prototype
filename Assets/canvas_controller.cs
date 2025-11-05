@@ -33,6 +33,8 @@ public class canvas_controller : MonoBehaviour
 
     public void ActiveBothModels()
     {
+        model1.SetActive(false);
+        model2.SetActive(false);
         model1.SetActive(true);
         model2.SetActive(true);
     }
