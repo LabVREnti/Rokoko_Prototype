@@ -365,6 +365,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538588759}
   m_CullTransparentMesh: 1
+--- !u!1 &551922629
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 551922631}
+  - component: {fileID: 551922630}
+  m_Layer: 0
+  m_Name: Unity-RecorderBindings
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &551922630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551922629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a24bc7e8573847adbdf1198360b3c794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_References:
+    m_Keys:
+    - ab52bef66a264dc418812919b6ffa416
+    m_Values:
+    - {fileID: 1614706767}
+--- !u!4 &551922631
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551922629}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &658307676
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2171,7 +2220,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ac0704111982e044692c3c748d31da91, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1614706771}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ac0704111982e044692c3c748d31da91, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1614706768}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ac0704111982e044692c3c748d31da91, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1614706769}
   m_SourcePrefab: {fileID: 100100000, guid: ac0704111982e044692c3c748d31da91, type: 3}
 --- !u!1 &1614706767 stripped
 GameObject:
@@ -2200,6 +2255,50 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1614706769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614706767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d61879c2b6b4edcabca7e5b99f7d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savePath: Assets/Anims+Models/Student anims/
+  fileName: 1234
+  startRecordKey: 113
+  stopRecordKey: 119
+  showLogGUI: 0
+  recordLimitedFrames: 0
+  recordFrames: 1000
+  changeTimeScale: 0
+  timeScaleOnStart: 0
+  timeScaleOnRecord: 1
+  recordBlendShape: 0
+--- !u!114 &1614706771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614706767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 452148c5daec3463e8ce370884fed1d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceFilePath: /Users/LaboratoriVR/Documents/GitHub/Rokoko_Prototype/Assets/StreamingAssets/FbxTemplate.fbx
+  exportFileFolder: /Users/LaboratoriVR/Desktop/TEST FBX FOLDER
+  exportFilePath: /Users/LaboratoriVR/Desktop/TEST FBX FOLDER/test8.fbx
+  startRecordKey: 113
+  endRecordKey: 119
+  includePathName: 0
+  recordPos: 1
+  recordRot: 1
+  recordScale: 1
 --- !u!4 &1689141010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 70bba19acd1a51347bf4545e6557f94e, type: 3}
@@ -2795,3 +2894,4 @@ SceneRoots:
   - {fileID: 1380929456}
   - {fileID: 1586711435}
   - {fileID: 1473124804}
+  - {fileID: 551922631}
