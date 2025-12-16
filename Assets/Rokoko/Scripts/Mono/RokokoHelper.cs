@@ -38,7 +38,7 @@ namespace Rokoko.Helper
             switch (bone)
             {
                 case HumanBodyBones.Hips:
-                    return frame.hip;
+                    return frame.hips;
                 case HumanBodyBones.LeftUpperLeg:
                     return frame.leftUpLeg;
                 case HumanBodyBones.RightUpperLeg:

@@ -82,7 +82,7 @@ namespace Rokoko.Core
     [System.Serializable]
     public class BodyFrame
     {
-        public ActorJointFrame hip;
+        public ActorJointFrame hips;
         public ActorJointFrame spine;
         public ActorJointFrame chest;
         public ActorJointFrame neck;

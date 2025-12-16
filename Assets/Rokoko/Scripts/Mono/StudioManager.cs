@@ -81,9 +81,9 @@ namespace Rokoko
             if (actorPrefab != null)
                 actors = new PrefabInstancer<string, Actor>(actorPrefab, this.transform);
             if (characterPrefab != null)
-                characters = new PrefabInstancer<string, Character>(characterPrefab, this.transform);
+                //characters = new PrefabInstancer<string, Character>(characterPrefab, this.transform);
             if (propPrefab != null)
-                props = new PrefabInstancer<string, Prop>(propPrefab, this.transform);
+                //props = new PrefabInstancer<string, Prop>(propPrefab, this.transform);
 
             yield return null;
 
