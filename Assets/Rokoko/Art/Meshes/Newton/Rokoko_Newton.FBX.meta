@@ -1,379 +1,1122 @@
 fileFormatVersion: 2
 guid: af1509907cf0821439505d380e183bd9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.1.3
+  assetPath: Assets/Rokoko/Art/Meshes/Newton/Rokoko_Newton.FBX
+  uploadId: 774862
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Base
-    100002: Camera001
-    100004: COM_Head
-    100006: COM_LeftArm
-    100008: COM_LeftFoot
-    100010: COM_LeftForeArm
-    100012: COM_LeftHand
-    100014: COM_LeftShin
-    100016: COM_LeftThigh
-    100018: COM_Pelvis
-    100020: COM_RightArm
-    100022: COM_RightFoot
-    100024: COM_RightForeArm
-    100026: COM_RightHand
-    100028: COM_RightShin
-    100030: COM_RightThigh
-    100032: COM_Thorax
-    100034: Head
-    100036: HeadTip
-    100038: HeadVertex
-    100040: Hips
-    100042: IMU_0x00
-    100044: IMU_0x01
-    100046: IMU_0x02
-    100048: IMU_0x03
-    100050: IMU_0x20
-    100052: IMU_0x21
-    100054: IMU_0x22
-    100056: IMU_0x23
-    100058: IMU_0x24
-    100060: IMU_0x40
-    100062: IMU_0x60
-    100064: IMU_0x61
-    100066: IMU_0x62
-    100068: IMU_0x63
-    100070: IMU_0x64
-    100072: IMU_0x80
-    100074: IMU_0x81
-    100076: IMU_0x82
-    100078: IMU_0x83
-    100080: LA
-    100082: Left1stMetatarsalHead
-    100084: Left2ndToeTip
-    100086: Left5thMetatarsalHead
-    100088: LeftAcromion
-    100090: LeftAnteroSuperiorIliacSpine
-    100092: LeftArm
-    100094: LeftCalcaneous
-    100096: LeftFibulaHead
-    100098: LeftFifthMetacarpalHead
-    100100: LeftFinger1Distal
-    100102: LeftFinger1Metacarpal
-    100104: LeftFinger1Proximal
-    100106: LeftFinger1Tip
-    100108: LeftFinger2Distal
-    100110: LeftFinger2Medial
-    100112: LeftFinger2Metacarpal
-    100114: LeftFinger2Proximal
-    100116: LeftFinger2Tip
-    100118: LeftFinger3Distal
-    100120: LeftFinger3Medial
-    100122: LeftFinger3Metacarpal
-    100124: LeftFinger3Proximal
-    100126: LeftFinger3Tip
-    100128: LeftFinger4Distal
-    100130: LeftFinger4Medial
-    100132: LeftFinger4Metacarpal
-    100134: LeftFinger4Proximal
-    100136: LeftFinger4Tip
-    100138: LeftFinger5Distal
-    100140: LeftFinger5Medial
-    100142: LeftFinger5Metacarpal
-    100144: LeftFinger5Proximal
-    100146: LeftFinger5Tip
-    100148: LeftFoot
-    100150: LeftForeArm
-    100152: LeftGreaterTrochanter
-    100154: LeftHand
-    100156: LeftHEEL
-    100158: LeftLateralFemoralEpicondyle
-    100160: LeftLateralHumeralEpicondyle
-    100162: LeftLateralMalleolus
-    100164: LeftMedialFemoralEpicondyle
-    100166: LeftMedialHumeralEpicondyle
-    100168: LeftOlecranion
-    100170: LeftRadialStyloid
-    100172: LeftSecondMetacarpalHead
-    100174: LeftShin
-    100176: LeftShoulder
-    100178: LeftSphyrion
-    100180: LeftThigh
-    100182: LeftThirdFingerTip
-    100184: LeftTibialeHead
-    100186: LeftToe
-    100188: LeftToeTip
-    100190: LeftUlnarStyloid
-    100192: MidpointPosteroSuperiorIliacSpines
-    100194: Neck
-    100196: newton
-    100198: newtonalpha_mass
-    100200: Occiput
-    100202: Point001
-    100204: Point002
-    100206: RA
-    100208: Right1stMetatarsalHead
-    100210: Right2ndToeTip
-    100212: Right5thMetatarsalHead
-    100214: RightAcromion
-    100216: RightAnteroSuperiorIliacSpine
-    100218: RightArm
-    100220: RightCalcaneous
-    100222: RightFibulaHead
-    100224: RightFifthMetacarpalHead
-    100226: RightFinger1Distal
-    100228: RightFinger1Metacarpal
-    100230: RightFinger1Proximal
-    100232: RightFinger1Tip
-    100234: RightFinger2Distal
-    100236: RightFinger2Medial
-    100238: RightFinger2Metacarpal
-    100240: RightFinger2Proximal
-    100242: RightFinger2Tip
-    100244: RightFinger3Distal
-    100246: RightFinger3Medial
-    100248: RightFinger3Metacarpal
-    100250: RightFinger3Proximal
-    100252: RightFinger3Tip
-    100254: RightFinger4Distal
-    100256: RightFinger4Medial
-    100258: RightFinger4Metacarpal
-    100260: RightFinger4Proximal
-    100262: RightFinger4Tip
-    100264: RightFinger5Distal
-    100266: RightFinger5Medial
-    100268: RightFinger5Metacarpal
-    100270: RightFinger5Proximal
-    100272: RightFinger5Tip
-    100274: RightFoot
-    100276: RightForeArm
-    100278: RightGreaterTrochanter
-    100280: RightHand
-    100282: RightHEEL
-    100284: RightLateralFemoralEpicondyle
-    100286: RightLateralHumeralEpicondyle
-    100288: RightLateralMalleolus
-    100290: RightMedialFemoralEpicondyle
-    100292: RightMedialHumeralEpicondyle
-    100294: RightOlecranion
-    100296: RightRadialStyloid
-    100298: RightSecondMetacarpalHead
-    100300: RightShin
-    100302: RightShoulder
-    100304: RightSphyrion
-    100306: RightThigh
-    100308: RightThirdFingerTip
-    100310: RightTibialeHead
-    100312: RightToe
-    100314: RightToeTip
-    100316: RightUlnarStyloid
-    100318: //RootNode
-    100320: Sellion
-    100322: SeventhCervicale
-    100324: SITBONE
-    100326: SkinData_newton
-    100328: Spine1
-    100330: Spine2
-    100332: Spine3
-    100334: Spine4
-    100336: Suprasternale
-    100338: Symphision
-    400000: Base
-    400002: Camera001
-    400004: COM_Head
-    400006: COM_LeftArm
-    400008: COM_LeftFoot
-    400010: COM_LeftForeArm
-    400012: COM_LeftHand
-    400014: COM_LeftShin
-    400016: COM_LeftThigh
-    400018: COM_Pelvis
-    400020: COM_RightArm
-    400022: COM_RightFoot
-    400024: COM_RightForeArm
-    400026: COM_RightHand
-    400028: COM_RightShin
-    400030: COM_RightThigh
-    400032: COM_Thorax
-    400034: Head
-    400036: HeadTip
-    400038: HeadVertex
-    400040: Hips
-    400042: IMU_0x00
-    400044: IMU_0x01
-    400046: IMU_0x02
-    400048: IMU_0x03
-    400050: IMU_0x20
-    400052: IMU_0x21
-    400054: IMU_0x22
-    400056: IMU_0x23
-    400058: IMU_0x24
-    400060: IMU_0x40
-    400062: IMU_0x60
-    400064: IMU_0x61
-    400066: IMU_0x62
-    400068: IMU_0x63
-    400070: IMU_0x64
-    400072: IMU_0x80
-    400074: IMU_0x81
-    400076: IMU_0x82
-    400078: IMU_0x83
-    400080: LA
-    400082: Left1stMetatarsalHead
-    400084: Left2ndToeTip
-    400086: Left5thMetatarsalHead
-    400088: LeftAcromion
-    400090: LeftAnteroSuperiorIliacSpine
-    400092: LeftArm
-    400094: LeftCalcaneous
-    400096: LeftFibulaHead
-    400098: LeftFifthMetacarpalHead
-    400100: LeftFinger1Distal
-    400102: LeftFinger1Metacarpal
-    400104: LeftFinger1Proximal
-    400106: LeftFinger1Tip
-    400108: LeftFinger2Distal
-    400110: LeftFinger2Medial
-    400112: LeftFinger2Metacarpal
-    400114: LeftFinger2Proximal
-    400116: LeftFinger2Tip
-    400118: LeftFinger3Distal
-    400120: LeftFinger3Medial
-    400122: LeftFinger3Metacarpal
-    400124: LeftFinger3Proximal
-    400126: LeftFinger3Tip
-    400128: LeftFinger4Distal
-    400130: LeftFinger4Medial
-    400132: LeftFinger4Metacarpal
-    400134: LeftFinger4Proximal
-    400136: LeftFinger4Tip
-    400138: LeftFinger5Distal
-    400140: LeftFinger5Medial
-    400142: LeftFinger5Metacarpal
-    400144: LeftFinger5Proximal
-    400146: LeftFinger5Tip
-    400148: LeftFoot
-    400150: LeftForeArm
-    400152: LeftGreaterTrochanter
-    400154: LeftHand
-    400156: LeftHEEL
-    400158: LeftLateralFemoralEpicondyle
-    400160: LeftLateralHumeralEpicondyle
-    400162: LeftLateralMalleolus
-    400164: LeftMedialFemoralEpicondyle
-    400166: LeftMedialHumeralEpicondyle
-    400168: LeftOlecranion
-    400170: LeftRadialStyloid
-    400172: LeftSecondMetacarpalHead
-    400174: LeftShin
-    400176: LeftShoulder
-    400178: LeftSphyrion
-    400180: LeftThigh
-    400182: LeftThirdFingerTip
-    400184: LeftTibialeHead
-    400186: LeftToe
-    400188: LeftToeTip
-    400190: LeftUlnarStyloid
-    400192: MidpointPosteroSuperiorIliacSpines
-    400194: Neck
-    400196: newton
-    400198: newtonalpha_mass
-    400200: Occiput
-    400202: Point001
-    400204: Point002
-    400206: RA
-    400208: Right1stMetatarsalHead
-    400210: Right2ndToeTip
-    400212: Right5thMetatarsalHead
-    400214: RightAcromion
-    400216: RightAnteroSuperiorIliacSpine
-    400218: RightArm
-    400220: RightCalcaneous
-    400222: RightFibulaHead
-    400224: RightFifthMetacarpalHead
-    400226: RightFinger1Distal
-    400228: RightFinger1Metacarpal
-    400230: RightFinger1Proximal
-    400232: RightFinger1Tip
-    400234: RightFinger2Distal
-    400236: RightFinger2Medial
-    400238: RightFinger2Metacarpal
-    400240: RightFinger2Proximal
-    400242: RightFinger2Tip
-    400244: RightFinger3Distal
-    400246: RightFinger3Medial
-    400248: RightFinger3Metacarpal
-    400250: RightFinger3Proximal
-    400252: RightFinger3Tip
-    400254: RightFinger4Distal
-    400256: RightFinger4Medial
-    400258: RightFinger4Metacarpal
-    400260: RightFinger4Proximal
-    400262: RightFinger4Tip
-    400264: RightFinger5Distal
-    400266: RightFinger5Medial
-    400268: RightFinger5Metacarpal
-    400270: RightFinger5Proximal
-    400272: RightFinger5Tip
-    400274: RightFoot
-    400276: RightForeArm
-    400278: RightGreaterTrochanter
-    400280: RightHand
-    400282: RightHEEL
-    400284: RightLateralFemoralEpicondyle
-    400286: RightLateralHumeralEpicondyle
-    400288: RightLateralMalleolus
-    400290: RightMedialFemoralEpicondyle
-    400292: RightMedialHumeralEpicondyle
-    400294: RightOlecranion
-    400296: RightRadialStyloid
-    400298: RightSecondMetacarpalHead
-    400300: RightShin
-    400302: RightShoulder
-    400304: RightSphyrion
-    400306: RightThigh
-    400308: RightThirdFingerTip
-    400310: RightTibialeHead
-    400312: RightToe
-    400314: RightToeTip
-    400316: RightUlnarStyloid
-    400318: //RootNode
-    400320: Sellion
-    400322: SeventhCervicale
-    400324: SITBONE
-    400326: SkinData_newton
-    400328: Spine1
-    400330: Spine2
-    400332: Spine3
-    400334: Spine4
-    400336: Suprasternale
-    400338: Symphision
-    2100000: Hips
-    2100002: RKK_Joint
-    2100004: Spine
-    2100006: Chest
-    2100008: Neck
-    2100010: Head
-    2100012: RightUpperLeg
-    2100014: RightLowerLeg
-    2100016: RightFoot
-    2100018: RightShoulder
-    2100020: RightUpperArm
-    2100022: RightLowerArm
-    2100024: RightHand
-    2100026: LeftUpperLeg
-    2100028: LeftLowerLeg
-    2100030: LeftFoot
-    2100032: LeftShoulder
-    2100034: LeftUpperArm
-    2100036: LeftLowerArm
-    2100038: LeftHand
-    2100040: No Name
-    2300000: SkinData_newton
-    3300000: SkinData_newton
-    4300000: newton
-    4300002: SkinData_newton
-    7400000: Take 001
-    9500000: //RootNode
-    13700000: newton
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Base
+  - first:
+      1: 100002
+    second: Camera001
+  - first:
+      1: 100004
+    second: COM_Head
+  - first:
+      1: 100006
+    second: COM_LeftArm
+  - first:
+      1: 100008
+    second: COM_LeftFoot
+  - first:
+      1: 100010
+    second: COM_LeftForeArm
+  - first:
+      1: 100012
+    second: COM_LeftHand
+  - first:
+      1: 100014
+    second: COM_LeftShin
+  - first:
+      1: 100016
+    second: COM_LeftThigh
+  - first:
+      1: 100018
+    second: COM_Pelvis
+  - first:
+      1: 100020
+    second: COM_RightArm
+  - first:
+      1: 100022
+    second: COM_RightFoot
+  - first:
+      1: 100024
+    second: COM_RightForeArm
+  - first:
+      1: 100026
+    second: COM_RightHand
+  - first:
+      1: 100028
+    second: COM_RightShin
+  - first:
+      1: 100030
+    second: COM_RightThigh
+  - first:
+      1: 100032
+    second: COM_Thorax
+  - first:
+      1: 100034
+    second: Head
+  - first:
+      1: 100036
+    second: HeadTip
+  - first:
+      1: 100038
+    second: HeadVertex
+  - first:
+      1: 100040
+    second: Hips
+  - first:
+      1: 100042
+    second: IMU_0x00
+  - first:
+      1: 100044
+    second: IMU_0x01
+  - first:
+      1: 100046
+    second: IMU_0x02
+  - first:
+      1: 100048
+    second: IMU_0x03
+  - first:
+      1: 100050
+    second: IMU_0x20
+  - first:
+      1: 100052
+    second: IMU_0x21
+  - first:
+      1: 100054
+    second: IMU_0x22
+  - first:
+      1: 100056
+    second: IMU_0x23
+  - first:
+      1: 100058
+    second: IMU_0x24
+  - first:
+      1: 100060
+    second: IMU_0x40
+  - first:
+      1: 100062
+    second: IMU_0x60
+  - first:
+      1: 100064
+    second: IMU_0x61
+  - first:
+      1: 100066
+    second: IMU_0x62
+  - first:
+      1: 100068
+    second: IMU_0x63
+  - first:
+      1: 100070
+    second: IMU_0x64
+  - first:
+      1: 100072
+    second: IMU_0x80
+  - first:
+      1: 100074
+    second: IMU_0x81
+  - first:
+      1: 100076
+    second: IMU_0x82
+  - first:
+      1: 100078
+    second: IMU_0x83
+  - first:
+      1: 100080
+    second: LA
+  - first:
+      1: 100082
+    second: Left1stMetatarsalHead
+  - first:
+      1: 100084
+    second: Left2ndToeTip
+  - first:
+      1: 100086
+    second: Left5thMetatarsalHead
+  - first:
+      1: 100088
+    second: LeftAcromion
+  - first:
+      1: 100090
+    second: LeftAnteroSuperiorIliacSpine
+  - first:
+      1: 100092
+    second: LeftArm
+  - first:
+      1: 100094
+    second: LeftCalcaneous
+  - first:
+      1: 100096
+    second: LeftFibulaHead
+  - first:
+      1: 100098
+    second: LeftFifthMetacarpalHead
+  - first:
+      1: 100100
+    second: LeftFinger1Distal
+  - first:
+      1: 100102
+    second: LeftFinger1Metacarpal
+  - first:
+      1: 100104
+    second: LeftFinger1Proximal
+  - first:
+      1: 100106
+    second: LeftFinger1Tip
+  - first:
+      1: 100108
+    second: LeftFinger2Distal
+  - first:
+      1: 100110
+    second: LeftFinger2Medial
+  - first:
+      1: 100112
+    second: LeftFinger2Metacarpal
+  - first:
+      1: 100114
+    second: LeftFinger2Proximal
+  - first:
+      1: 100116
+    second: LeftFinger2Tip
+  - first:
+      1: 100118
+    second: LeftFinger3Distal
+  - first:
+      1: 100120
+    second: LeftFinger3Medial
+  - first:
+      1: 100122
+    second: LeftFinger3Metacarpal
+  - first:
+      1: 100124
+    second: LeftFinger3Proximal
+  - first:
+      1: 100126
+    second: LeftFinger3Tip
+  - first:
+      1: 100128
+    second: LeftFinger4Distal
+  - first:
+      1: 100130
+    second: LeftFinger4Medial
+  - first:
+      1: 100132
+    second: LeftFinger4Metacarpal
+  - first:
+      1: 100134
+    second: LeftFinger4Proximal
+  - first:
+      1: 100136
+    second: LeftFinger4Tip
+  - first:
+      1: 100138
+    second: LeftFinger5Distal
+  - first:
+      1: 100140
+    second: LeftFinger5Medial
+  - first:
+      1: 100142
+    second: LeftFinger5Metacarpal
+  - first:
+      1: 100144
+    second: LeftFinger5Proximal
+  - first:
+      1: 100146
+    second: LeftFinger5Tip
+  - first:
+      1: 100148
+    second: LeftFoot
+  - first:
+      1: 100150
+    second: LeftForeArm
+  - first:
+      1: 100152
+    second: LeftGreaterTrochanter
+  - first:
+      1: 100154
+    second: LeftHand
+  - first:
+      1: 100156
+    second: LeftHEEL
+  - first:
+      1: 100158
+    second: LeftLateralFemoralEpicondyle
+  - first:
+      1: 100160
+    second: LeftLateralHumeralEpicondyle
+  - first:
+      1: 100162
+    second: LeftLateralMalleolus
+  - first:
+      1: 100164
+    second: LeftMedialFemoralEpicondyle
+  - first:
+      1: 100166
+    second: LeftMedialHumeralEpicondyle
+  - first:
+      1: 100168
+    second: LeftOlecranion
+  - first:
+      1: 100170
+    second: LeftRadialStyloid
+  - first:
+      1: 100172
+    second: LeftSecondMetacarpalHead
+  - first:
+      1: 100174
+    second: LeftShin
+  - first:
+      1: 100176
+    second: LeftShoulder
+  - first:
+      1: 100178
+    second: LeftSphyrion
+  - first:
+      1: 100180
+    second: LeftThigh
+  - first:
+      1: 100182
+    second: LeftThirdFingerTip
+  - first:
+      1: 100184
+    second: LeftTibialeHead
+  - first:
+      1: 100186
+    second: LeftToe
+  - first:
+      1: 100188
+    second: LeftToeTip
+  - first:
+      1: 100190
+    second: LeftUlnarStyloid
+  - first:
+      1: 100192
+    second: MidpointPosteroSuperiorIliacSpines
+  - first:
+      1: 100194
+    second: Neck
+  - first:
+      1: 100196
+    second: newton
+  - first:
+      1: 100198
+    second: newtonalpha_mass
+  - first:
+      1: 100200
+    second: Occiput
+  - first:
+      1: 100202
+    second: Point001
+  - first:
+      1: 100204
+    second: Point002
+  - first:
+      1: 100206
+    second: RA
+  - first:
+      1: 100208
+    second: Right1stMetatarsalHead
+  - first:
+      1: 100210
+    second: Right2ndToeTip
+  - first:
+      1: 100212
+    second: Right5thMetatarsalHead
+  - first:
+      1: 100214
+    second: RightAcromion
+  - first:
+      1: 100216
+    second: RightAnteroSuperiorIliacSpine
+  - first:
+      1: 100218
+    second: RightArm
+  - first:
+      1: 100220
+    second: RightCalcaneous
+  - first:
+      1: 100222
+    second: RightFibulaHead
+  - first:
+      1: 100224
+    second: RightFifthMetacarpalHead
+  - first:
+      1: 100226
+    second: RightFinger1Distal
+  - first:
+      1: 100228
+    second: RightFinger1Metacarpal
+  - first:
+      1: 100230
+    second: RightFinger1Proximal
+  - first:
+      1: 100232
+    second: RightFinger1Tip
+  - first:
+      1: 100234
+    second: RightFinger2Distal
+  - first:
+      1: 100236
+    second: RightFinger2Medial
+  - first:
+      1: 100238
+    second: RightFinger2Metacarpal
+  - first:
+      1: 100240
+    second: RightFinger2Proximal
+  - first:
+      1: 100242
+    second: RightFinger2Tip
+  - first:
+      1: 100244
+    second: RightFinger3Distal
+  - first:
+      1: 100246
+    second: RightFinger3Medial
+  - first:
+      1: 100248
+    second: RightFinger3Metacarpal
+  - first:
+      1: 100250
+    second: RightFinger3Proximal
+  - first:
+      1: 100252
+    second: RightFinger3Tip
+  - first:
+      1: 100254
+    second: RightFinger4Distal
+  - first:
+      1: 100256
+    second: RightFinger4Medial
+  - first:
+      1: 100258
+    second: RightFinger4Metacarpal
+  - first:
+      1: 100260
+    second: RightFinger4Proximal
+  - first:
+      1: 100262
+    second: RightFinger4Tip
+  - first:
+      1: 100264
+    second: RightFinger5Distal
+  - first:
+      1: 100266
+    second: RightFinger5Medial
+  - first:
+      1: 100268
+    second: RightFinger5Metacarpal
+  - first:
+      1: 100270
+    second: RightFinger5Proximal
+  - first:
+      1: 100272
+    second: RightFinger5Tip
+  - first:
+      1: 100274
+    second: RightFoot
+  - first:
+      1: 100276
+    second: RightForeArm
+  - first:
+      1: 100278
+    second: RightGreaterTrochanter
+  - first:
+      1: 100280
+    second: RightHand
+  - first:
+      1: 100282
+    second: RightHEEL
+  - first:
+      1: 100284
+    second: RightLateralFemoralEpicondyle
+  - first:
+      1: 100286
+    second: RightLateralHumeralEpicondyle
+  - first:
+      1: 100288
+    second: RightLateralMalleolus
+  - first:
+      1: 100290
+    second: RightMedialFemoralEpicondyle
+  - first:
+      1: 100292
+    second: RightMedialHumeralEpicondyle
+  - first:
+      1: 100294
+    second: RightOlecranion
+  - first:
+      1: 100296
+    second: RightRadialStyloid
+  - first:
+      1: 100298
+    second: RightSecondMetacarpalHead
+  - first:
+      1: 100300
+    second: RightShin
+  - first:
+      1: 100302
+    second: RightShoulder
+  - first:
+      1: 100304
+    second: RightSphyrion
+  - first:
+      1: 100306
+    second: RightThigh
+  - first:
+      1: 100308
+    second: RightThirdFingerTip
+  - first:
+      1: 100310
+    second: RightTibialeHead
+  - first:
+      1: 100312
+    second: RightToe
+  - first:
+      1: 100314
+    second: RightToeTip
+  - first:
+      1: 100316
+    second: RightUlnarStyloid
+  - first:
+      1: 100318
+    second: //RootNode
+  - first:
+      1: 100320
+    second: Sellion
+  - first:
+      1: 100322
+    second: SeventhCervicale
+  - first:
+      1: 100324
+    second: SITBONE
+  - first:
+      1: 100326
+    second: SkinData_newton
+  - first:
+      1: 100328
+    second: Spine1
+  - first:
+      1: 100330
+    second: Spine2
+  - first:
+      1: 100332
+    second: Spine3
+  - first:
+      1: 100334
+    second: Spine4
+  - first:
+      1: 100336
+    second: Suprasternale
+  - first:
+      1: 100338
+    second: Symphision
+  - first:
+      4: 400000
+    second: Base
+  - first:
+      4: 400002
+    second: Camera001
+  - first:
+      4: 400004
+    second: COM_Head
+  - first:
+      4: 400006
+    second: COM_LeftArm
+  - first:
+      4: 400008
+    second: COM_LeftFoot
+  - first:
+      4: 400010
+    second: COM_LeftForeArm
+  - first:
+      4: 400012
+    second: COM_LeftHand
+  - first:
+      4: 400014
+    second: COM_LeftShin
+  - first:
+      4: 400016
+    second: COM_LeftThigh
+  - first:
+      4: 400018
+    second: COM_Pelvis
+  - first:
+      4: 400020
+    second: COM_RightArm
+  - first:
+      4: 400022
+    second: COM_RightFoot
+  - first:
+      4: 400024
+    second: COM_RightForeArm
+  - first:
+      4: 400026
+    second: COM_RightHand
+  - first:
+      4: 400028
+    second: COM_RightShin
+  - first:
+      4: 400030
+    second: COM_RightThigh
+  - first:
+      4: 400032
+    second: COM_Thorax
+  - first:
+      4: 400034
+    second: Head
+  - first:
+      4: 400036
+    second: HeadTip
+  - first:
+      4: 400038
+    second: HeadVertex
+  - first:
+      4: 400040
+    second: Hips
+  - first:
+      4: 400042
+    second: IMU_0x00
+  - first:
+      4: 400044
+    second: IMU_0x01
+  - first:
+      4: 400046
+    second: IMU_0x02
+  - first:
+      4: 400048
+    second: IMU_0x03
+  - first:
+      4: 400050
+    second: IMU_0x20
+  - first:
+      4: 400052
+    second: IMU_0x21
+  - first:
+      4: 400054
+    second: IMU_0x22
+  - first:
+      4: 400056
+    second: IMU_0x23
+  - first:
+      4: 400058
+    second: IMU_0x24
+  - first:
+      4: 400060
+    second: IMU_0x40
+  - first:
+      4: 400062
+    second: IMU_0x60
+  - first:
+      4: 400064
+    second: IMU_0x61
+  - first:
+      4: 400066
+    second: IMU_0x62
+  - first:
+      4: 400068
+    second: IMU_0x63
+  - first:
+      4: 400070
+    second: IMU_0x64
+  - first:
+      4: 400072
+    second: IMU_0x80
+  - first:
+      4: 400074
+    second: IMU_0x81
+  - first:
+      4: 400076
+    second: IMU_0x82
+  - first:
+      4: 400078
+    second: IMU_0x83
+  - first:
+      4: 400080
+    second: LA
+  - first:
+      4: 400082
+    second: Left1stMetatarsalHead
+  - first:
+      4: 400084
+    second: Left2ndToeTip
+  - first:
+      4: 400086
+    second: Left5thMetatarsalHead
+  - first:
+      4: 400088
+    second: LeftAcromion
+  - first:
+      4: 400090
+    second: LeftAnteroSuperiorIliacSpine
+  - first:
+      4: 400092
+    second: LeftArm
+  - first:
+      4: 400094
+    second: LeftCalcaneous
+  - first:
+      4: 400096
+    second: LeftFibulaHead
+  - first:
+      4: 400098
+    second: LeftFifthMetacarpalHead
+  - first:
+      4: 400100
+    second: LeftFinger1Distal
+  - first:
+      4: 400102
+    second: LeftFinger1Metacarpal
+  - first:
+      4: 400104
+    second: LeftFinger1Proximal
+  - first:
+      4: 400106
+    second: LeftFinger1Tip
+  - first:
+      4: 400108
+    second: LeftFinger2Distal
+  - first:
+      4: 400110
+    second: LeftFinger2Medial
+  - first:
+      4: 400112
+    second: LeftFinger2Metacarpal
+  - first:
+      4: 400114
+    second: LeftFinger2Proximal
+  - first:
+      4: 400116
+    second: LeftFinger2Tip
+  - first:
+      4: 400118
+    second: LeftFinger3Distal
+  - first:
+      4: 400120
+    second: LeftFinger3Medial
+  - first:
+      4: 400122
+    second: LeftFinger3Metacarpal
+  - first:
+      4: 400124
+    second: LeftFinger3Proximal
+  - first:
+      4: 400126
+    second: LeftFinger3Tip
+  - first:
+      4: 400128
+    second: LeftFinger4Distal
+  - first:
+      4: 400130
+    second: LeftFinger4Medial
+  - first:
+      4: 400132
+    second: LeftFinger4Metacarpal
+  - first:
+      4: 400134
+    second: LeftFinger4Proximal
+  - first:
+      4: 400136
+    second: LeftFinger4Tip
+  - first:
+      4: 400138
+    second: LeftFinger5Distal
+  - first:
+      4: 400140
+    second: LeftFinger5Medial
+  - first:
+      4: 400142
+    second: LeftFinger5Metacarpal
+  - first:
+      4: 400144
+    second: LeftFinger5Proximal
+  - first:
+      4: 400146
+    second: LeftFinger5Tip
+  - first:
+      4: 400148
+    second: LeftFoot
+  - first:
+      4: 400150
+    second: LeftForeArm
+  - first:
+      4: 400152
+    second: LeftGreaterTrochanter
+  - first:
+      4: 400154
+    second: LeftHand
+  - first:
+      4: 400156
+    second: LeftHEEL
+  - first:
+      4: 400158
+    second: LeftLateralFemoralEpicondyle
+  - first:
+      4: 400160
+    second: LeftLateralHumeralEpicondyle
+  - first:
+      4: 400162
+    second: LeftLateralMalleolus
+  - first:
+      4: 400164
+    second: LeftMedialFemoralEpicondyle
+  - first:
+      4: 400166
+    second: LeftMedialHumeralEpicondyle
+  - first:
+      4: 400168
+    second: LeftOlecranion
+  - first:
+      4: 400170
+    second: LeftRadialStyloid
+  - first:
+      4: 400172
+    second: LeftSecondMetacarpalHead
+  - first:
+      4: 400174
+    second: LeftShin
+  - first:
+      4: 400176
+    second: LeftShoulder
+  - first:
+      4: 400178
+    second: LeftSphyrion
+  - first:
+      4: 400180
+    second: LeftThigh
+  - first:
+      4: 400182
+    second: LeftThirdFingerTip
+  - first:
+      4: 400184
+    second: LeftTibialeHead
+  - first:
+      4: 400186
+    second: LeftToe
+  - first:
+      4: 400188
+    second: LeftToeTip
+  - first:
+      4: 400190
+    second: LeftUlnarStyloid
+  - first:
+      4: 400192
+    second: MidpointPosteroSuperiorIliacSpines
+  - first:
+      4: 400194
+    second: Neck
+  - first:
+      4: 400196
+    second: newton
+  - first:
+      4: 400198
+    second: newtonalpha_mass
+  - first:
+      4: 400200
+    second: Occiput
+  - first:
+      4: 400202
+    second: Point001
+  - first:
+      4: 400204
+    second: Point002
+  - first:
+      4: 400206
+    second: RA
+  - first:
+      4: 400208
+    second: Right1stMetatarsalHead
+  - first:
+      4: 400210
+    second: Right2ndToeTip
+  - first:
+      4: 400212
+    second: Right5thMetatarsalHead
+  - first:
+      4: 400214
+    second: RightAcromion
+  - first:
+      4: 400216
+    second: RightAnteroSuperiorIliacSpine
+  - first:
+      4: 400218
+    second: RightArm
+  - first:
+      4: 400220
+    second: RightCalcaneous
+  - first:
+      4: 400222
+    second: RightFibulaHead
+  - first:
+      4: 400224
+    second: RightFifthMetacarpalHead
+  - first:
+      4: 400226
+    second: RightFinger1Distal
+  - first:
+      4: 400228
+    second: RightFinger1Metacarpal
+  - first:
+      4: 400230
+    second: RightFinger1Proximal
+  - first:
+      4: 400232
+    second: RightFinger1Tip
+  - first:
+      4: 400234
+    second: RightFinger2Distal
+  - first:
+      4: 400236
+    second: RightFinger2Medial
+  - first:
+      4: 400238
+    second: RightFinger2Metacarpal
+  - first:
+      4: 400240
+    second: RightFinger2Proximal
+  - first:
+      4: 400242
+    second: RightFinger2Tip
+  - first:
+      4: 400244
+    second: RightFinger3Distal
+  - first:
+      4: 400246
+    second: RightFinger3Medial
+  - first:
+      4: 400248
+    second: RightFinger3Metacarpal
+  - first:
+      4: 400250
+    second: RightFinger3Proximal
+  - first:
+      4: 400252
+    second: RightFinger3Tip
+  - first:
+      4: 400254
+    second: RightFinger4Distal
+  - first:
+      4: 400256
+    second: RightFinger4Medial
+  - first:
+      4: 400258
+    second: RightFinger4Metacarpal
+  - first:
+      4: 400260
+    second: RightFinger4Proximal
+  - first:
+      4: 400262
+    second: RightFinger4Tip
+  - first:
+      4: 400264
+    second: RightFinger5Distal
+  - first:
+      4: 400266
+    second: RightFinger5Medial
+  - first:
+      4: 400268
+    second: RightFinger5Metacarpal
+  - first:
+      4: 400270
+    second: RightFinger5Proximal
+  - first:
+      4: 400272
+    second: RightFinger5Tip
+  - first:
+      4: 400274
+    second: RightFoot
+  - first:
+      4: 400276
+    second: RightForeArm
+  - first:
+      4: 400278
+    second: RightGreaterTrochanter
+  - first:
+      4: 400280
+    second: RightHand
+  - first:
+      4: 400282
+    second: RightHEEL
+  - first:
+      4: 400284
+    second: RightLateralFemoralEpicondyle
+  - first:
+      4: 400286
+    second: RightLateralHumeralEpicondyle
+  - first:
+      4: 400288
+    second: RightLateralMalleolus
+  - first:
+      4: 400290
+    second: RightMedialFemoralEpicondyle
+  - first:
+      4: 400292
+    second: RightMedialHumeralEpicondyle
+  - first:
+      4: 400294
+    second: RightOlecranion
+  - first:
+      4: 400296
+    second: RightRadialStyloid
+  - first:
+      4: 400298
+    second: RightSecondMetacarpalHead
+  - first:
+      4: 400300
+    second: RightShin
+  - first:
+      4: 400302
+    second: RightShoulder
+  - first:
+      4: 400304
+    second: RightSphyrion
+  - first:
+      4: 400306
+    second: RightThigh
+  - first:
+      4: 400308
+    second: RightThirdFingerTip
+  - first:
+      4: 400310
+    second: RightTibialeHead
+  - first:
+      4: 400312
+    second: RightToe
+  - first:
+      4: 400314
+    second: RightToeTip
+  - first:
+      4: 400316
+    second: RightUlnarStyloid
+  - first:
+      4: 400318
+    second: //RootNode
+  - first:
+      4: 400320
+    second: Sellion
+  - first:
+      4: 400322
+    second: SeventhCervicale
+  - first:
+      4: 400324
+    second: SITBONE
+  - first:
+      4: 400326
+    second: SkinData_newton
+  - first:
+      4: 400328
+    second: Spine1
+  - first:
+      4: 400330
+    second: Spine2
+  - first:
+      4: 400332
+    second: Spine3
+  - first:
+      4: 400334
+    second: Spine4
+  - first:
+      4: 400336
+    second: Suprasternale
+  - first:
+      4: 400338
+    second: Symphision
+  - first:
+      21: 2100000
+    second: Hips
+  - first:
+      21: 2100002
+    second: RKK_Joint
+  - first:
+      21: 2100004
+    second: Spine
+  - first:
+      21: 2100006
+    second: Chest
+  - first:
+      21: 2100008
+    second: Neck
+  - first:
+      21: 2100010
+    second: Head
+  - first:
+      21: 2100012
+    second: RightUpperLeg
+  - first:
+      21: 2100014
+    second: RightLowerLeg
+  - first:
+      21: 2100016
+    second: RightFoot
+  - first:
+      21: 2100018
+    second: RightShoulder
+  - first:
+      21: 2100020
+    second: RightUpperArm
+  - first:
+      21: 2100022
+    second: RightLowerArm
+  - first:
+      21: 2100024
+    second: RightHand
+  - first:
+      21: 2100026
+    second: LeftUpperLeg
+  - first:
+      21: 2100028
+    second: LeftLowerLeg
+  - first:
+      21: 2100030
+    second: LeftFoot
+  - first:
+      21: 2100032
+    second: LeftShoulder
+  - first:
+      21: 2100034
+    second: LeftUpperArm
+  - first:
+      21: 2100036
+    second: LeftLowerArm
+  - first:
+      21: 2100038
+    second: LeftHand
+  - first:
+      21: 2100040
+    second: No Name
+  - first:
+      23: 2300000
+    second: SkinData_newton
+  - first:
+      33: 3300000
+    second: SkinData_newton
+  - first:
+      43: 4300000
+    second: newton
+  - first:
+      43: 4300002
+    second: SkinData_newton
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: newton
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -382,9 +1125,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -406,25 +1148,36 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -433,427 +1186,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
-    human:
-    - boneName: Hips
-      humanName: Hips
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftThigh
-      humanName: LeftUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightThigh
-      humanName: RightUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftShin
-      humanName: LeftLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightShin
-      humanName: RightLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFoot
-      humanName: LeftFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFoot
-      humanName: RightFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Spine1
-      humanName: Spine
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Spine2
-      humanName: Chest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Neck
-      humanName: Neck
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Head
-      humanName: Head
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftShoulder
-      humanName: LeftShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightShoulder
-      humanName: RightShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftArm
-      humanName: LeftUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightArm
-      humanName: RightUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftForeArm
-      humanName: LeftLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightForeArm
-      humanName: RightLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftHand
-      humanName: LeftHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightHand
-      humanName: RightHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftToe
-      humanName: LeftToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightToe
-      humanName: RightToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger1Metacarpal
-      humanName: Left Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger1Proximal
-      humanName: Left Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger1Distal
-      humanName: Left Thumb Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger2Proximal
-      humanName: Left Index Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger2Medial
-      humanName: Left Index Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger2Distal
-      humanName: Left Index Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger3Proximal
-      humanName: Left Middle Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger3Medial
-      humanName: Left Middle Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger3Distal
-      humanName: Left Middle Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger4Proximal
-      humanName: Left Ring Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger4Medial
-      humanName: Left Ring Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger4Distal
-      humanName: Left Ring Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger5Proximal
-      humanName: Left Little Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger5Medial
-      humanName: Left Little Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: LeftFinger5Distal
-      humanName: Left Little Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger1Metacarpal
-      humanName: Right Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger1Proximal
-      humanName: Right Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger1Distal
-      humanName: Right Thumb Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger2Proximal
-      humanName: Right Index Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger2Medial
-      humanName: Right Index Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger2Distal
-      humanName: Right Index Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger3Proximal
-      humanName: Right Middle Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger3Medial
-      humanName: Right Middle Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger3Distal
-      humanName: Right Middle Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger4Proximal
-      humanName: Right Ring Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger4Medial
-      humanName: Right Ring Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger4Distal
-      humanName: Right Ring Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger5Proximal
-      humanName: Right Little Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger5Medial
-      humanName: Right Little Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: RightFinger5Distal
-      humanName: Right Little Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Spine3
-      humanName: UpperChest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
+    serializedVersion: 3
+    human: []
     skeleton:
     - name: Rokoko_Newton(Clone)
       parentName: 
@@ -1128,8 +1465,7 @@ ModelImporter:
     - name: RightFinger4Distal
       parentName: RightFinger4Medial
       position: {x: -0.000000026226044, y: -0.027731704, z: 0.00000017166137}
-      rotation: {x: 0.000000042146763, y: -0.00000011920932, z: 0.00000008195643,
-        w: 1}
+      rotation: {x: 0.000000042146763, y: -0.00000011920932, z: 0.00000008195643, w: 1}
       scale: {x: 1.0000006, y: 1.0000007, z: 1.0000008}
     - name: RightFinger4Tip
       parentName: RightFinger4Distal
@@ -1199,8 +1535,7 @@ ModelImporter:
     - name: RightFinger1Distal
       parentName: RightFinger1Proximal
       position: {x: 0.000000085830685, y: -0.030277861, z: -0.00000015258789}
-      rotation: {x: 0.00000014901158, y: 0.0000000064350147, z: 0.00000027338817,
-        w: 1}
+      rotation: {x: 0.00000014901158, y: 0.0000000064350147, z: 0.00000027338817, w: 1}
       scale: {x: 1.0000005, y: 1, z: 1.0000005}
     - name: RightFinger1Tip
       parentName: RightFinger1Distal
@@ -1325,20 +1660,17 @@ ModelImporter:
     - name: LeftSecondMetacarpalHead
       parentName: LeftHand
       position: {x: -0.04530025, y: -0.085979, z: -0.007987385}
-      rotation: {x: -1.9106855e-15, y: -0.000000043711392, z: -0.000000043711385,
-        w: 1}
+      rotation: {x: -1.9106855e-15, y: -0.000000043711392, z: -0.000000043711385, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: LeftFifthMetacarpalHead
       parentName: LeftHand
       position: {x: 0.045301974, y: -0.07497833, z: 0.007988129}
-      rotation: {x: -1.9106855e-15, y: -0.000000043711392, z: -0.000000043711385,
-        w: 1}
+      rotation: {x: -1.9106855e-15, y: -0.000000043711392, z: -0.000000043711385, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: IMU_0x24
       parentName: LeftHand
       position: {x: -0.009279337, y: -0.06782325, z: -0.034534395}
-      rotation: {x: 0.00000047683716, y: -0.000000029802326, z: -0.0000000074505664,
-        w: 1}
+      rotation: {x: 0.00000047683716, y: -0.000000029802326, z: -0.0000000074505664, w: 1}
       scale: {x: 1, y: 0.9999998, z: 0.9999998}
     - name: LeftFinger1Metacarpal
       parentName: LeftHand
@@ -1353,8 +1685,7 @@ ModelImporter:
     - name: LeftFinger1Distal
       parentName: LeftFinger1Proximal
       position: {x: -0.00000014305114, y: -0.030278014, z: -0.000000076293944}
-      rotation: {x: -0.000000029802315, y: -0.000000007450579, z: 0.0000000907639,
-        w: 1}
+      rotation: {x: -0.000000029802315, y: -0.000000007450579, z: 0.0000000907639, w: 1}
       scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
     - name: LeftFinger1Tip
       parentName: LeftFinger1Distal
@@ -1374,14 +1705,12 @@ ModelImporter:
     - name: LeftFinger2Medial
       parentName: LeftFinger2Proximal
       position: {x: -0.000000019073486, y: -0.04499977, z: -0.000000019073486}
-      rotation: {x: 0.00000031610136, y: 0.000000059604602, z: -0.000000014901259,
-        w: 1}
+      rotation: {x: 0.00000031610136, y: 0.000000059604602, z: -0.000000014901259, w: 1}
       scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
     - name: LeftFinger2Distal
       parentName: LeftFinger2Medial
       position: {x: 0.00000015258789, y: -0.027684936, z: 0.000000019073486}
-      rotation: {x: 0.00000016858742, y: -0.000000059604645, z: 0.00000002980237,
-        w: 1}
+      rotation: {x: 0.00000016858742, y: -0.000000059604645, z: 0.00000002980237, w: 1}
       scale: {x: 0.9999997, y: 0.9999997, z: 0.99999964}
     - name: LeftFinger2Tip
       parentName: LeftFinger2Distal
@@ -1461,8 +1790,7 @@ ModelImporter:
     - name: LeftFinger5Tip
       parentName: LeftFinger5Distal
       position: {x: 0.00000014781952, y: -0.022409286, z: 0.000000019073486}
-      rotation: {x: -0.00000023841858, y: -0.00000007549788, z: -0.000000075497915,
-        w: 1}
+      rotation: {x: -0.00000023841858, y: -0.00000007549788, z: -0.000000075497915, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: RightThigh
       parentName: Hips
@@ -1572,8 +1900,7 @@ ModelImporter:
     - name: RightToe
       parentName: RightFoot
       position: {x: 0.000000019073486, y: -0.13169399, z: 0.0623944}
-      rotation: {x: -0.0000000745058, y: -0.000000029802319, z: -0.000000029802319,
-        w: -1}
+      rotation: {x: -0.0000000745058, y: -0.000000029802319, z: -0.000000029802319, w: -1}
       scale: {x: 1, y: 0.99999976, z: 0.9999998}
     - name: RightToeTip
       parentName: RightToe
@@ -1688,8 +2015,7 @@ ModelImporter:
     - name: LeftToe
       parentName: LeftFoot
       position: {x: -0.00000016212464, y: -0.13169397, z: 0.062394362}
-      rotation: {x: -0.0000002682209, y: -0.00000008940697, z: 0.000000029802322,
-        w: 1}
+      rotation: {x: -0.0000002682209, y: -0.00000008940697, z: 0.000000029802322, w: 1}
       scale: {x: 0.9999994, y: 0.9999992, z: 0.99999917}
     - name: LeftToeTip
       parentName: LeftToe
@@ -1723,21 +2049,20 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 98045
-  packageName: Rokoko Live
-  packageVersion: 2.1.3
-  assetPath: Assets/Rokoko/Art/Meshes/Newton/Rokoko_Newton.FBX
-  uploadId: 774862

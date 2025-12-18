@@ -11,7 +11,7 @@ public class canvas_controller : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        model1.SetActive(false);
+
         model2.SetActive(false);
        
         animationScreen.SetActive(false);
